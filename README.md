@@ -5,11 +5,14 @@ Desktop Screen Recorder for UNIX, Linux, Windows or Mac.
 This is an updated version of [vnc2flv](http://www.unixuser.org/~euske/python/vnc2flv/index.html) that works with
 Python 3.  This will not work with Python 2.
 
+Dependencies (tested on Ubuntu 22): build-essential, python3.10-distutils and python3-dev
+
 To use it, clone the repo and then run:
 
 ```
-make install
+apt install build-essential python3.10-distutils python3-dev && make install
 ```
+
 
 `flvrec.py` is the main recording program.  Once installed you can run `flvrec.py --help` to see the available options.
 
